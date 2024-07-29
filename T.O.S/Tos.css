@@ -1,0 +1,493 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.hero {
+    width: 1440px;
+    height: 1040px;
+    background: var(--Additional-Colors-Background, #F9F9FB);
+   position: relative;
+    
+}
+
+nav {
+    display: flex;
+    
+    padding: 20px 120px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+nav #menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 20px 0px 20px 285px;
+}
+
+nav #menu li a{
+    color: var(--Grayscale-50, #8E8E93);
+
+    /* Large/Medium */
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+}
+
+.logo {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+.logo p {
+    color:  var(--Main-Colors-Secondary, #064BB4);
+    font-family: "General Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    position: absolute;
+    top: 10px;
+    left: 42px;
+}
+
+.logo p .ing{
+    color: var(--Main-Colors-Secondary, #064BB4);
+    font-family: "General Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: 1.3px;
+    
+}
+
+.account {
+display: flex;
+align-items: center;
+gap: 32px;
+cursor: pointer;
+position: absolute;
+top: 35px;
+left: 1060px;
+
+}
+
+
+.account i .ellipse{
+   width: 12px;
+   height: 12px;
+   position: absolute;
+   right: 235px;
+   top: 6px;
+}
+.account .logs{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+#login {
+    cursor: pointer;
+    display: flex;
+    width: 83px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--Additional-Colors-White, #FFF);
+}
+
+#signup {
+    cursor: pointer;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--Main-Colors-Primary, #BCFF5E);
+}
+section .all{
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    left: 120px;
+    top: 74px;
+    }
+
+.all .come{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    
+}
+.come h1 {
+    color: var(--Grayscale-100, #1C1C1E);
+
+/* Dekstop/H6 */
+font-family: "General Sans";
+font-size: 72px;
+font-style: normal;
+font-weight: 500;
+line-height: 80px; /* 111.111% */
+letter-spacing: 0.36px;
+}
+
+.come .let{
+color: var(--Grayscale-100, #1C1C1E);
+font-family: "General Sans";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: 0.36px;
+}
+
+.come h6 {
+    width: 404px;
+    color: var(--Grayscale-60, #636366);
+
+/* Large/Regular */
+font-family: "General Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.08px;
+}
+
+.all .write1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+position: absolute;
+padding-top: 128px;
+}
+.all .write1 .up{
+color: var(--Grayscale-900, #09080D);
+
+/* Dekstop/H3 */
+font-family: "General Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 125% */
+letter-spacing: 0.16px;
+margin-top: 48px;
+}
+.all .write1 .down{
+    align-self: stretch;
+    color: var(--Grayscale-100, #1C1C1E);
+
+/* Large/Medium */
+font-family: "General Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.08px;
+}
+
+.all .write2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+position: absolute;
+padding-top: 675px;
+margin-bottom: 120px;
+}
+
+.all .write2 .on{
+    color: var(--Grayscale-900, #09080D);
+
+/* Dekstop/H3 */
+font-family: "General Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 125% */
+letter-spacing: 0.16px;
+
+}
+
+.all .write2 .in{
+align-self: stretch;
+color: var(--Grayscale-100, #1C1C1E);
+
+/* Large/Medium */
+font-family: "General Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.08px;
+}
+.information{
+    width: 1440px;
+    height: 408px;
+    background: #08172D;
+    position: relative;
+    }
+    
+    .information .parlour .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+    }
+    
+    .information .parlour .onon{
+    display: flex;
+    
+    align-items: center;
+    gap: 6px;
+    }
+    .information .parlour .onon img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    }
+    .information .parlour .on{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    }
+    .information .parlour .on p{
+        color: var(--Additional-Colors-White, #FFF);
+        font-family: "General Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+        letter-spacing: 1.3px;
+    }
+    
+    .information .parlour .on p .ing{
+    color: var(--Additional-Colors-White, #FFF);
+    font-family: "General Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    }
+    
+    .information .parlour .in{
+    width: 363px;
+    color: var(--Grayscale-40, #AEAEB2);
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
+    
+    
+    .information .parlour .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    top: 120px;
+    left: 570.5px;
+    }
+    
+    .information .parlour .mid .up{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+    .information .parlour .mid .down{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+    .information .parlour .mid .up h5{
+        color: #C5C5C5;
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
+    
+    .information .parlour .mid .down h5{
+        color: #C5C5C5;
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
+    
+    .information .parlour .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    left: 954px;
+    top: 120px;
+    }
+    
+    .information .parlour .right .shield h5{
+        color: var(--Grayscale-50, #8E8E93);
+        font-family: "General Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.5px;
+    }
+    
+    .information .parlour .right .plank{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+    
+    .information .parlour .plank1{
+        display: flex;
+        width: 247px;
+        padding: 16px 32px;
+        align-items: center;
+        gap: 8px;
+        border-radius: 32px;
+    background: rgba(255, 255, 255, 0.12);
+    
+    
+    }
+    .information .parlour .plank1 input{
+    color: #CBCBCB;
+    
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    border: none;
+    
+    }
+    .information .parlour .plank2 button{
+        display: flex;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 32px;
+        background: var(--Main-Colors-Primary, #BCFF5E);
+    }
+    
+    .information .parlour .plank2 button h5 {
+    color: var(--Grayscale-100, #1C1C1E);
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
+    
+    .information hr{
+    width: 1200px;
+    height: 0px;
+    color: #E9EBED;
+    background-color: #E9EBED;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--Additional-Colors-Line, #E9EBED);
+    opacity: 0.16;
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    }
+    .prediction{
+    display: inline-flex;
+    align-items: center;
+    gap: 254px;
+    position: absolute;
+    left: 120px;
+    top: 344px;
+    }
+    .prediction .raid{
+    color: var(--Grayscale-40, #AEAEB2);
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
+    
+    .prediction .acquire{
+    display: flex;
+    width: 240px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    }
+    
+    .prediction .acquire .social{
+    display: flex;
+    width: 13px;
+    height: 13px;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    
+    .prediction .plead{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+    .prediction .plead h5{
+        color: #C5C5C5;
+    font-family: "General Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.08px;
+    }
